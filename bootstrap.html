@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="graphic, print, printing, brand, branding, website, front-end, developer, development, user interface, ui, ux, design, designer, freelance, freelancer, boston" />
+    <meta name="description" content="Showcase and portfolio of Arthur Plada's work. Freelance designer and developer in the Great Boston working mainly in the field of branding, print, web and mobile">
+	<title>AP Bootstrap</title>
+	    
+    <link rel="stylesheet" href="css/global.css" type="text/css" media="screen" charset="utf-8" >
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="css/animations.css" type="text/css" media="screen" charset="utf-8" />
+    
+</head>
+
+<body> 
+    <div class="page"> <!----------------------------------------------------------------- PAGE -->
+    
+            <div id="nav-wrapper"> <!-----------------------------------------------------------------NAV -->
+            
+                <div data-spy="affix" class="sidebar affix-top">
+                    <img src="images/bg_nav_left.jpg" id="hide" />
+                    <ul id="sliding-navigation">
+                        <li  class="sliding-element"><h3>FEATURED WORK</h3></li>
+                        <li  class="sliding-element"><a href="user_interface.html">UI/UX</a></li>
+                        <li  class="sliding-element"><a href="websites.html">WEBSITE</a></li>
+                        <li  class="sliding-element"><a href="designs.html">COLLATERAL</a></li>
+                        <li  class="sliding-element"><a href="illustrations.html">ILLUSTRATION</a></li>
+                    </ul>
+                   
+                    <h1>Creative designer &amp; website developer based in Boston.</h1>
+                    <p>
+                       Welcome! I am a designer and front-end developer with over 5 year of experience working mainly in the fields of branding, print, web, mobile and experimental design work.<br />
+                   </p>
+                </div>
+           
+            </div> 				    
+            
+            
+            <div class="container"> <!----------------------------------------------------------------- CONTAINER -->
+            
+                 <div class="gallery_container services animationBegin">
+                    <img src="images/new-ribbon.png" width="112" height="112" alt="New Ribbon" id="ribbon">
+                    <div class="slides">
+                            <div class="slides_container">
+                                <a href="images/ui_quicksite1.jpg" rel="prettyPhoto[gallery8]" title="" target="_blank"><img src="images/ui_quicksite_tbn1.jpg" width="370" height="270" alt=""></a>
+                                <a href="images/ui_quicksite2.jpg" rel="prettyPhoto[gallery8]" title="" target="_blank"><img src="images/ui_quicksite_tbn2.jpg" width="370" height="270" alt=""></a>
+                                <a href="images/ui_quicksite3.jpg" rel="prettyPhoto[gallery8]" title="" target="_blank"><img src="images/ui_quicksite_tbn3.jpg" width="370" height="270" alt=""></a>
+                            </div>
+                   </div>
+                       <h2><span>E-COMMERCE /</span> Quickable</h2>
+                       <p>
+                       Quickable is the one touch solution that allows people to buy and sell items across popular online marketplaces and social media sites.
+                       </br>
+                       <span>✔Wireframing ✔Photoshop</span> 
+                       </p>
+                 </div>
+        
+                 <div class="gallery_container services animationBegin">
+                    <img src="images/new-ribbon.png" width="112" height="112" alt="New Ribbon" id="ribbon">
+                    <div class="slides">
+                            <div class="slides_container">
+                                <a href="images/ui_quick1.jpg" rel="prettyPhoto[gallery7]" title="" target="_blank"><img src="images/ui_quick_tbn1.jpg" width="370" height="270" alt=""></a>
+                                <a href="images/ui_quick2.jpg" rel="prettyPhoto[gallery7]" title="" target="_blank"><img src="images/ui_quick_tbn2.jpg" width="370" height="270" alt=""></a>
+                                <a href="images/ui_quick3.jpg" rel="prettyPhoto[gallery7]" title="" target="_blank"><img src="images/ui_quick_tbn3.jpg" width="370" height="270" alt=""></a>
+                            </div>
+                   </div>
+                       <h2><span>ANDROID APP/</span> Quickable</h2>
+                       <p>
+                       Mobile app with item listining and shopping cart integration for Quick Technologies. 
+                       </br>
+                       <span>✔Wireframing ✔Photoshop</span> 
+                       </p>
+                 </div>         
+                                 
+            </div>                   
+
+    </div>     
+</body>
+
+    <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script src="js/slides.min.jquery.js"></script>    
+    <script src="js/jquery.masonry.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/sliding_effect.js"></script>   
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.appear-1.1.1.modified.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+	<script>
+		 if (Modernizr.csstransitions) {
+                                function preloadImages(imgs, callback) {
+                                        var cache = [],
+                                                imgsTotal = imgs.length,
+                                                imgsLoaded = 0;
+                       
+                                        $(imgs).each(function (i, img) {
+                                                var cacheImage = document.createElement('img');
+                                                cacheImage.onload = function () {
+                                                        if (++imgsLoaded == imgsTotal) callback();
+                                                };
+                                                cacheImage.src = $(img).attr('src');
+                                                cache.push(cacheImage);
+                                        });
+                                };
+                                $.fn.trans = function () {
+                                        var t = arguments[0],
+                                                d = arguments[1] || '';
+                                        if (t) {
+                                                $.each(this, function (i, e) {
+                                                        $(['-webkit-', '-moz-', '-o-', '-ms-', '']).each(function (i, p) {
+                                                                $(e).css(p + 'transition' + d, t);
+                                                        });
+                                                });
+                                        }
+                                };
+                               
+                                document.write('<link rel="stylesheet" href="css/animations.css" />');
+                       
+                                $(function(){
+                                        //preload images contained within elements that need to animate
+                                        preloadImages($('.services img, .featured img'), function () {
+                                                $('.services, .featured').appear({
+                                                        once: true,
+                                                        forEachVisible: function (i, e) {
+                                                                $(e).data('delay', i);
+                                                        },
+                                                        appear: function () {
+                                                                var delay = 150,
+                                                                        stagger = 100,
+                                                                        sequential_delay = stagger * parseInt($(this).data('delay')) || 0;
+                       
+                                                                $(this).children().each(function (i, e) {
+                                                                        $(e).trans(i * delay + sequential_delay + 'ms', '-delay');
+                                                                });
+                                                                $(this).removeClass('animationBegin');
+                                                        }
+                                                });
+                                        });
+                                });
+                        }
+		
+		$(function(){
+		    $('.slides').slides();
+		    $("area[rel^='prettyPhoto']").prettyPhoto();
+		    
+		    $(".slides_container:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',slideshow:3000, autoplay_slideshow: false});
+		    $(".slides_container:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed: 'fast', slideshow: 10000, hideflash: true });
+
+		    $("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+		        custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+		        changepicturecallback: function() { initialize(); }
+		    });
+
+		    $("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+		        custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+		        changepicturecallback: function() { _bsap.exec(); }
+		    });	 
+			
+		    $('.container').masonry({
+			// options
+			itemSelector : '.gallery_container',
+			//columnWidth : 370
+  });
+		});
+
+	$('#nav-wrapper').height($(".sidebar").height());
+	$('.sidebar').affix({
+    offset: $('.sidebar').position()
+	});
+
+	</script>
+
+</html>
+

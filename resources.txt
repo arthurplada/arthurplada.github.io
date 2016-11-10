@@ -1,0 +1,32 @@
+RESOURCES:
+
+>> Magic layout
+http://isotope.metafizzy.co/ 
+
+
+--------------------------------------------------------------------------
+>>  Sidebar which scrolls with the main content:
+
+http://stackoverflow.com/questions/12091203/sidebar-which-scrolls-with-the-main-content
+
+http://rc.getbootstrap.com/javascript.html#affix
+
+http://stackoverflow.com/questions/12070970/how-to-use-the-new-affix-plugin-in-twitters-bootstrap-2-1-0/13151016#13151016
+
+http://jsfiddle.net/namuol/Uaa3U/
+
+---------------------------------------------------------------------------
+
+>> ‘Mootools Homepage’ Inspired Navigation Effect Using jQuery
+
+http://net.tutsplus.com/tutorials/javascript-ajax/how-to-create-a-mootools-homepage-inspired-navigation-effect-using-jquery/
+
+http://d2o0t5hpnwv4c1.cloudfront.net/004_Moo/tutorial/demo/demo.html
+
+---------------------------------------------------------------------------
+
+>> Getting CSS animations to trigger at the right time:
+
+http://www.netmagazine.com/tutorials/getting-animations-trigger-right-time
+
+http://www.3magine.com/
